@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- 여기에 업로드 전 페이지의 UI 요소를 추가 -->
+    <Button
+        android:layout_marginTop="300dp"
+        android:id="@+id/buttontoupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="업로드"
+        android:layout_centerInParent="true"/>
+
+    <!-- 공통 푸터 포함 -->
+    <include
+        android:id="@+id/common_footer"
+        layout="@layout/common_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

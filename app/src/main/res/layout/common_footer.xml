@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 수평선 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+
+    <!-- 이미지 버튼을 담을 수평 LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <!-- 이미지 버튼 1 -->
+        <ImageButton
+            android:id="@+id/button_upload"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="25dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/upload_desc"
+            android:scaleType="centerInside"
+            android:src="@drawable/upload" />
+
+        <!-- 이미지 버튼 2 -->
+        <ImageButton
+            android:id="@+id/button_home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/home_desc"
+            android:scaleType="centerInside"
+            android:src="@drawable/homebutton" />
+
+        <!-- 이미지 버튼 3 -->
+        <ImageButton
+            android:id="@+id/button_calendar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/calendar_desc"
+            android:scaleType="centerInside"
+            android:src="@drawable/calendar" />
+
+        <!-- 이미지 버튼 4 -->
+        <ImageButton
+            android:id="@+id/button_routine"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/routine_desc"
+            android:scaleType="centerInside"
+            android:src="@drawable/routine" />
+
+    </LinearLayout>
+
+</LinearLayout>

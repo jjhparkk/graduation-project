@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">jihyunproject1</string>
+    <string name="upload_desc">Upload</string>
+    <string name="home_desc">Home</string>
+    <string name="calendar_desc">Calendar</string>
+    <string name="routine_desc">Routine</string>
+    <string name="edit_desc">Routine</string>
+
+</resources>
